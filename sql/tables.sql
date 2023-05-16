@@ -1,0 +1,45 @@
+
+DROP TABLE IF EXISTS LOAN_SYS_DANMUK CASCADE CONSTRAINTS;
+
+/*==============================================================*/
+/* Table: LOAN_SYS_DANMUK                                          */
+/*==============================================================*/
+CREATE TABLE LOAN_SYS_DANMUK
+(
+   ID                   VARCHAR(64)          NOT NULL,
+   ROOM_ID                   VARCHAR(64),
+   DANMUK     CLOB,
+   DANMUK_MSG          CLOB,
+   DANMUK_TYPE          VARCHAR(400),
+   DANMUK_USER_ID          VARCHAR(400),
+   DANMUK_USER_NAME          VARCHAR(400),
+   DANMUK_TIME          TIMESTAMP(9),
+   CONSTRAINT "PK_DANMUK" PRIMARY KEY (ID)
+);
+
+COMMENT ON TABLE LOAN_SYS_DANMUK IS
+'系统管理_弹幕表';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.ID IS
+'主键';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.ROOM_ID IS
+'房间号';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK IS
+'弹幕数据';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK_MSG IS
+'弹幕消息';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK_TYPE IS
+'弹幕类型';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK_USER_ID IS
+'弹幕用户Id';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK_USER_NAME IS
+'弹幕用户名称';
+
+COMMENT ON COLUMN LOAN_SYS_DANMUK.DANMUK_TIME IS
+'弹幕时间';
