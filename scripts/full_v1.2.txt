@@ -1,0 +1,403 @@
+  document.body.innerHTML = '';
+  var ms2 = document.createElement("script");
+  ms2.src = 'https://activity.hdslb.com/blackboard/static/20210425/d0411babbbf77c49ca42a3320eb804ae/0NCT06vruR.js';
+  document.body.append(ms2);
+
+var convertToObject = function(t) {
+                        var e = new DataView(t)
+                          , n = {
+                            body: []
+                        };
+                        if (n.packetLen = e.getInt32(o.a.WS_PACKAGE_OFFSET),
+                        this.wsBinaryHeaderList.forEach(function(t) {
+                            4 === t.bytes ? n[t.key] = e.getInt32(t.offset) : 2 === t.bytes && (n[t.key] = e.getInt16(t.offset))
+                        }),
+                        n.packetLen < t.byteLength && this.convertToObject(t.slice(0, n.packetLen)),
+                        this.decoder || (this.decoder = r.a.getDecoder()),
+                        !n.op || o.a.WS_OP_MESSAGE !== n.op && n.op !== o.a.WS_OP_CONNECT_SUCCESS)
+                            n.op && o.a.WS_OP_HEARTBEAT_REPLY === n.op && (n.body = {
+                                count: e.getInt32(o.a.WS_PACKAGE_HEADER_TOTAL_LENGTH)
+                            });
+                        else
+                            for (var i = o.a.WS_PACKAGE_OFFSET, s = n.packetLen, a = "", u = ""; i < t.byteLength; i += s) {
+                                s = e.getInt32(i),
+                                a = e.getInt16(i + o.a.WS_HEADER_OFFSET);
+                                try {
+                                    if (n.ver === o.a.WS_BODY_PROTOCOL_VERSION_NORMAL) {
+                                        var c = this.decoder.decode(t.slice(i + a, i + s));
+                                        u = 0 !== c.length ? JSON.parse(c) : null
+                                    } else if (n.ver === o.a.WS_BODY_PROTOCOL_VERSION_BROTLI) {
+                                        var l = t.slice(i + a, i + s)
+                                          , h = window.BrotliDecode(new Uint8Array(l));
+                                        u = this.convertToObject(h.buffer).body
+                                    }
+                                    u && n.body.push(u)
+                                } catch (e) {
+                                    //this.options.onLogger("decode body error:", new Uint8Array(t), n, e)
+                                    console.info("decode body error:", new Uint8Array(t), n, e);
+                                }
+                            }
+                        return n
+                    }
+
+function getR(t, e, n) {
+	"use strict";
+	var o = {
+	    getDecoder: function() {
+		return window.TextDecoder ? new window.TextDecoder : {
+		    decode: function(t) {
+			return decodeURIComponent(window.escape(String.fromCharCode.apply(String, new Uint8Array(t))))
+		    }
+		}
+	    },
+	    getEncoder: function() {
+		return window.TextEncoder ? new window.TextEncoder : {
+		    encode: function(t) {
+			for (var e = new ArrayBuffer(t.length), n = new Uint8Array(e), o = 0, i = t.length; o < i; o++)
+			    n[o] = t.charCodeAt(o);
+			return e
+		    }
+		}
+	    },
+	    mergeArrayBuffer: function(t, e) {
+		var n = new Uint8Array(t)
+		  , o = new Uint8Array(e)
+		  , i = new Uint8Array(n.byteLength + o.byteLength);
+		return i.set(n, 0),
+		i.set(o, n.byteLength),
+		i.buffer
+	    },
+	    callFunction: function(t, e) {
+		return t instanceof Array && t.length ? (t.forEach(function(t) {
+		    return "function" == typeof t && t(e)
+		}),
+		null) : "function" == typeof t && t(e)
+	    },
+	    extend: function(t) {
+		for (var e = arguments.length, n = Array(e > 1 ? e - 1 : 0), o = 1; o < e; o++)
+		    n[o - 1] = arguments[o];
+		var i = t || {};
+		return i instanceof Object && n.forEach(function(t) {
+		    t instanceof Object && Object.keys(t).forEach(function(e) {
+			i[e] = t[e]
+		    })
+		}),
+		i
+	    }
+	};
+	e.a = o
+    }
+
+
+
+function ajaxJson(url, obj){
+
+    var promise = new Promise(function (resolve,reject) {
+        // 1. create XMLHttpRequset Object.
+        var xmlhttp;
+        if (window.XMLHttpRequest) {
+            //  IE7+, Firefox, Chrome, Opera, Safari Usage
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {
+            // IE6, IE5 Usage
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        // 2. add ajax readystatechange event listener.
+        xmlhttp.onreadystatechange = function () {
+            console.info("[readystatechange - begin]");
+            console.info(xmlhttp.status + " " + xmlhttp.readyState);
+            if (xmlhttp.readyState == 4) {
+                if (xmlhttp.status == 200) {
+                    console.info(xmlhttp.responseType);
+                    if (xmlhttp.responseType == "json") {
+                        console.info(xmlhttp.response);
+                        resolve(xmlhttp.response);
+                    } else if(xmlhttp.responseType == 'arraybuffer'){
+                        resolve(xmlhttp.response);
+                    } else if(xmlhttp.responseType == "text"){
+                        resolve(xmlhttp.responseText);
+                    } else if(xmlhttp.responseType == "document"){
+                        resolve(xmlhttp.responseXML);
+                    } else {
+                        console.info("responseText :" + xmlhttp.responseText);
+                        console.info("responseXML :" + xmlhttp.responseXML);
+                        console.info("[readystatechange - end]");
+                        console.info("");
+                    }
+                } else {
+                    console.info("requset fail");
+                    console.info("[readystatechange - end]");
+                    console.info("");
+                    reject();
+                }
+            }
+        }
+
+        xmlhttp.responseType = "json";
+	//xmlhttp.withCredentials = true;
+
+        // 3. set ajax request info
+        //   1) Request Method ["GET","POST","HEAD","PUT","DELETE","CONNECT","TRACE","OPTIONS"]
+        //   2) URL
+        //   3) async
+        xmlhttp.open("GET", url, true);
+        //xmlhttp.setRequestHeader("Content-type", "application/json");
+        //xmlhttp.setRequestHeader("token", "ca8e0054-c769-4311-8027-dc72bb33e394");
+
+        // 4. send ajax request
+        xmlhttp.send(obj);
+    });
+    return promise;
+}
+
+function sendHeart(ws){
+  ws.send(getheart());
+}
+
+function getheart(){
+  var words = [0, 0, 0, 31, 0, 16, 0, 1, 0, 0, 0, 2, 0, 0, 0, 1, 91, 111, 98, 106, 101, 99, 116, 32, 79, 98, 106, 101, 99, 116, 93];
+  var buffer = new ArrayBuffer(31);
+  var uint8Array = new Uint8Array(buffer);
+  for(var i = 0; i < words.length; i++){
+    uint8Array[i] = words[i];
+  }
+  return buffer;
+}
+
+function getTokenHeader(){
+  var tokenHeader = [0, 0, 0, 235, 0, 16, 0, 1, 0, 0, 0, 7, 0, 0, 0, 1]
+  var buffer = new ArrayBuffer(16);
+  var uint8Array = new Uint8Array(buffer);
+  for(var i = 0; i < tokenHeader.length; i++){
+    uint8Array[i] = tokenHeader[i];
+  }
+  return buffer;
+}
+
+function mergeData(b1, b2){
+  var a1 = new Uint8Array(b1);
+  var a2 = new Uint8Array(b2);
+  var length = b1.byteLength + b2.byteLength;
+  var buffer = new ArrayBuffer(length);
+  var uint8Array = new Uint8Array(buffer);
+  var current = 0;
+  for(var i = 0; i < b1.byteLength; i++){
+    uint8Array[current] = a1[i];
+    current++;
+  }
+  for(var i = 0; i < b2.byteLength; i++){
+    uint8Array[current] = a2[i];
+    current++;
+  }
+  return buffer;
+}
+
+function getAuth(uid, roomid, token){
+  if(!uid) uid = 0;
+  if(!roomid) roomid = 3246070;
+  var data = '{"uid":' + uid + ',"roomid":' + roomid + ',"protover":3,"platform":"web","type":2,"key":"' + token + '"}';
+  var buffer = r.a.getEncoder().encode(data).buffer;
+  var tokenHeader = getTokenHeader();
+  var uint8Array = new Uint8Array(tokenHeader);
+  uint8Array[3] = tokenHeader.byteLength + buffer.byteLength;
+  //console.info(uint8Array[3] + "-" + (tokenHeader.byteLength + buffer.byteLength));
+  //console.info(tokenHeader);
+  //console.info(buffer);
+  return mergeData(tokenHeader, buffer);
+}
+
+function download(filename, data){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([data]));
+  a.download = filename;
+  a.click();
+}
+
+function fileUpload(url, obj){
+
+    var promise = new Promise(function (resolve,reject) {
+        // 1. create XMLHttpRequset Object.
+        var xmlhttp;
+        if (window.XMLHttpRequest) {
+            //  IE7+, Firefox, Chrome, Opera, Safari Usage
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {
+            // IE6, IE5 Usage
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        // 2. add ajax readystatechange event listener.
+        xmlhttp.onreadystatechange = function () {
+            console.info("[readystatechange - begin]");
+            console.info(xmlhttp.status + " " + xmlhttp.readyState);
+            if (xmlhttp.readyState == 4) {
+                if (xmlhttp.status == 200) {
+                    console.info(xmlhttp.responseType);
+                    if (xmlhttp.responseType == "json") {
+                        console.info(xmlhttp.response);
+                        resolve(xmlhttp.response);
+                    } else if(xmlhttp.responseType == 'arraybuffer'){
+                        resolve(xmlhttp.response);
+                    } else if(xmlhttp.responseType == "text"){
+                        resolve(xmlhttp.responseText);
+                    } else if(xmlhttp.responseType == "document"){
+                        resolve(xmlhttp.responseXML);
+                    } else {
+                        console.info("responseText :" + xmlhttp.responseText);
+                        console.info("responseXML :" + xmlhttp.responseXML);
+                        console.info("[readystatechange - end]");
+                        console.info("");
+                    }
+                } else {
+                    console.info("requset fail");
+                    console.info("[readystatechange - end]");
+                    console.info("");
+                    reject();
+                }
+            }
+        }
+
+        xmlhttp.responseType = "json";
+
+        // 3. set ajax request info
+        //   1) Request Method ["GET","POST","HEAD","PUT","DELETE","CONNECT","TRACE","OPTIONS"]
+        //   2) URL
+        //   3) async
+        xmlhttp.open("POST", url, true);
+
+	var blob = new Blob([JSON.stringify(obj)]);
+        var formData = new FormData();
+	formData.append("file", blob, roomid);
+
+        // 4. send ajax request
+        xmlhttp.send(formData);
+    });
+    return promise;
+}
+
+function getStatus(){
+  if(!document.getElementById("status")){
+    var span = document.createElement("span");
+    span.id= 'status';
+    span.style.fontSize = "100px";
+    document.body.appendChild(span);
+  }
+  return document.getElementById("status");
+}
+
+function reset(){
+  interval = 0;
+  running = false;
+  for(var i = 0; i< 10000; i++){
+    clearInterval(i);
+  }
+}
+
+var wsBinaryHeaderList = [
+{name: 'Header Length', key: 'headerLen', bytes: 2, offset: 4, value: 16} ,
+{name: 'Protocol Version', key: 'ver', bytes: 2, offset: 6, value: 1},
+{name: 'Operation', key: 'op', bytes: 4, offset: 8, value: 2} ,
+{name: 'Sequence Id', key: 'seq', bytes: 4, offset: 12, value: 1}
+]
+
+
+var o = {
+
+  "a":{
+
+"WS_AUTH_OK": 0,
+"WS_AUTH_TOKEN_ERROR": -101,
+"WS_BODY_PROTOCOL_VERSION_BROTLI":3,
+"WS_BODY_PROTOCOL_VERSION_NORMAL": 0,
+"WS_HEADER_DEFAULT_OPERATION": 1,
+"WS_HEADER_DEFAULT_SEQUENCE": 1,
+"WS_HEADER_DEFAULT_VERSION": 1,
+"WS_HEADER_OFFSET": 4,
+"WS_OPERATION_OFFSET": 8,
+"WS_OP_CONNECT_SUCCESS": 8,
+"WS_OP_HEARTBEAT": 2,
+"WS_OP_HEARTBEAT_REPLY": 3,
+"WS_OP_MESSAGE": 5,
+"WS_OP_USER_AUTHENTICATION": 7,
+"WS_PACKAGE_HEADER_TOTAL_LENGTH": 16,
+"WS_PACKAGE_OFFSET": 0,
+"WS_SEQUENCE_OFFSET": 12,
+"WS_VERSION_OFFSET": 6
+  }
+
+}
+
+window.r = {'a':{}};
+getR([], r);
+
+function initToken(url){
+  ajaxJson(url, null).then(function(result){
+    console.info(result);
+    if(result.data.host_list.length > 4){
+      initToken(url);
+      return;
+    }
+    wsurl = 'wss://@wsurl:@port/sub'.replace('@wsurl', result.data.host_list[choose].host)
+                                   .replace('@port', result.data.host_list[choose].wss_port);
+    token = result.data.token;
+    start();
+  });
+}
+
+
+function start(){
+
+  // 建立 WebSocket
+  //var ws = new WebSocket("wss://tx-bj-live-comet-05.chat.bilibili.com/sub");
+  var ws = new WebSocket(wsurl);
+  window.ws = ws;
+
+  ws.binaryType='arraybuffer';
+  ws.onopen = function(evt) {
+    console.log("Connection open ...");
+    ws.send(getAuth(uid, roomid, token));
+  };
+
+  var interval = 0;
+  var running = false;
+  window.interval = interval;
+  window.running = running;
+  ws.onmessage = function(evt) {
+    getStatus().innerText = roomid + ' - running';
+    console.log( "Received Message: " + evt.data);
+    var obj = convertToObject(evt.data);
+    console.info(obj);
+    fileUpload(uploadPath, obj);
+    //ws.close();
+    if(interval == 0 && running == false){
+      sendHeart(ws);
+      running = true;
+      interval = setInterval(sendHeart, 15000, ws);
+    }
+  };
+
+  ws.onclose = function(evt) {
+    reset();
+    getStatus().innerText = roomid + ' - closed';
+    console.log("Connection closed.");
+    if(retry)setTimeout(start, 3000);
+  };
+
+}
+
+
+
+// 获取 Token
+var uploadPath = "https://a.bilibili.com/upload.do";
+var uploadPath = "https://a.bilibili.com/upload";
+var uid = 0;
+var choose = 1;
+var roomid = "26122598";
+var token = '';
+var url = "https://api.live.bilibili.com/xlive/web-room/v1/index/getDanmuInfo?id=" + roomid + "&type=0";
+var wsurl = '';
+var retry = true;
+initToken(url);
