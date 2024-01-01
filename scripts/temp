@@ -1,0 +1,15 @@
+// 获取 Token
+var uploadPath = "https://a.bilibili.com/upload.do";
+var uploadPath = "https://a.bilibili.com/upload";
+var uid = 17907117;
+var choose = 1;
+var roomid = "22603245";
+var url = "https://api.live.bilibili.com/xlive/web-room/v1/index/getDanmuInfo?id=" + roomid + "&type=0";
+var token = "6TE6EHqnf9l2pQQLNTfU5NZKOph4ss5n8L0M0MY6EVNlkQpTN3lFPO5MIB4-xe6k0eVL0wIgqHPzLZJusxtT0TDVbKrXL0lB7xG8GqY7VdpVOyYYG1clmDHWefrSxj2tToZL4fdTIXKwr6v2_V8L8OKSmJT9YK2sprbN";
+var wsurl = 'wss://zj-cn-live-comet.chat.bilibili.com:2245/sub';
+var retry = true;
+start()
+//initToken(url);
+// roomid
+// wsurl
+// token

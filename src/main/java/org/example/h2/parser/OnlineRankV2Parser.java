@@ -12,8 +12,9 @@ public interface OnlineRankV2Parser extends DanmukParser {
     @Override
     default Danmuk parser(JSONObject body) {
         StringBuffer strb = new StringBuffer();
-        for(int i = 0; i < body.getJSONObject("data").getJSONArray("list").size(); i++){
-            JSONObject rankUser = body.getJSONObject("data").getJSONArray("list").getJSONObject(i);
+        String dataKey = body.getJSONObject("data").keySet().contains("online_list") ? "online_list" : "list";
+        for(int i = 0; i < body.getJSONObject("data").getJSONArray(dataKey).size(); i++){
+            JSONObject rankUser = body.getJSONObject("data").getJSONArray(dataKey).getJSONObject(i);
             String rank = rankUser.getString("rank");
             String uname = rankUser.getString("uname");
             strb.append(String.format(RANK_TOP_TEMPLATE, rank, uname));
