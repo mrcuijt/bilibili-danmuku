@@ -136,7 +136,7 @@ function ajaxJson(url, obj){
         }
 
         xmlhttp.responseType = "json";
-	//xmlhttp.withCredentials = true;
+        xmlhttp.withCredentials = true;
 
         // 3. set ajax request info
         //   1) Request Method ["GET","POST","HEAD","PUT","DELETE","CONNECT","TRACE","OPTIONS"]
@@ -192,7 +192,7 @@ function mergeData(b1, b2){
     uint8Array[current] = a2[i];
     current++;
   }
-  uint8Array[3] = 63;
+  //uint8Array[3] = 63;
   return buffer;
 }
 
@@ -204,7 +204,7 @@ function getAuth(uid, roomid, token){
   var buffer = r.a.getEncoder().encode(data).buffer;
   var tokenHeader = getTokenHeader();
   var uint8Array = new Uint8Array(tokenHeader);
-  uint8Array[3] = tokenHeader.byteLength + buffer.byteLength;
+  uint8Array[3] = tokenHeader.byteLength + buffer.byteLength - 256;
   //console.info(uint8Array[3] + "-" + (tokenHeader.byteLength + buffer.byteLength));
   //console.info(tokenHeader);
   //console.info(buffer);
@@ -340,7 +340,7 @@ getR([], r);
 function initToken(url){
   ajaxJson(url, null).then(function(result){
     console.info(result);
-    if(result.data.host_list.length > 4){
+    if(result.data.host_list.length > 5){
       initToken(url);
       return;
     }
