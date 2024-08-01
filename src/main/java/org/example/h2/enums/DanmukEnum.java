@@ -137,6 +137,7 @@ public enum DanmukEnum {
     PK_BATTLE_MULTIPLE_DRAW_RES(""),
     PK_BATTLE_VIDEO_PUNISH_BEGIN(""),
     PK_BATTLE_VIDEO_PUNISH_END(""),
+    USER_TOAST_MSG_V2(""),
     ;
 
     String desc;
