@@ -138,6 +138,12 @@ public enum DanmukEnum {
     PK_BATTLE_VIDEO_PUNISH_BEGIN(""),
     PK_BATTLE_VIDEO_PUNISH_END(""),
     USER_TOAST_MSG_V2(""),
+    LIKE_GUIDE_USER(""),
+    COMMON_ANIMATION(""),
+    LIKE_INFO_V3_NOTICE(""),
+    REVENUE_RANK_CHANGED(""),
+    CHG_RANK_REFRESH(""),
+    POPULARITY_RANK_TAB_CHG(""),
     ;
 
     String desc;
