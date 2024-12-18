@@ -1,0 +1,64 @@
+{
+  "cmd": "PK_BATTLE_PROCESS_NEW",
+  "data": {
+    "battle_type": 1,
+    "init_info": {
+      "assist_info": null,
+      "best_uname": "",
+      "room_id": 27318169,
+      "vision_desc": 0,
+      "votes": 0
+    },
+    "match_info": {
+      "assist_info": [
+        {
+          "award_content": "",
+          "face": "https://i1.hdslb.com/bfs/face/967448c20b2d34b7816d8d70fd863609e41979d3.jpg",
+          "is_mystery": false,
+          "rank": 1,
+          "uid": 60539371,
+          "uinfo": {
+            "base": {
+              "face": "https://i1.hdslb.com/bfs/face/967448c20b2d34b7816d8d70fd863609e41979d3.jpg",
+              "is_mystery": false,
+              "name": "世界第一可爱熊猫大人",
+              "name_color": 0,
+              "name_color_str": "",
+              "official_info": {
+                "desc": "",
+                "role": 0,
+                "title": "",
+                "type": -1
+              },
+              "origin_info": {
+                "face": "https://i1.hdslb.com/bfs/face/967448c20b2d34b7816d8d70fd863609e41979d3.jpg",
+                "name": "世界第一可爱熊猫大人"
+              },
+              "risk_ctrl_info": null
+            },
+            "guard": null,
+            "guard_leader": null,
+            "medal": null,
+            "title": null,
+            "uhead_frame": null,
+            "uid": 60539371,
+            "wealth": null
+          },
+          "uname": "世界第一可爱熊猫大人"
+        }
+      ],
+      "best_uname": "世界第一可爱熊猫大人",
+      "room_id": 24323935,
+      "vision_desc": 0,
+      "votes": 20
+    },
+    "trace_id": "69280b677fdff2ea4f0f7378fd66a37a"
+  },
+  "msg_id": "17530027621483008:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": 353915967,
+  "pk_status": 201,
+  "send_time": 1721989754217,
+  "timestamp": 1721989754
+}

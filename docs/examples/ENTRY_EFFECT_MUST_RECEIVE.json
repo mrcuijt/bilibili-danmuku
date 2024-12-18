@@ -1,0 +1,66 @@
+{
+  "data": {
+    "effective_time": 2,
+    "uinfo": {
+      "wealth": {
+        "level": 0,
+        "dm_icon_key": ""
+      },
+      "uid": 17907117,
+      "guard": {
+        "level": 0,
+        "expired_str": ""
+      },
+      "medal": null,
+      "uhead_frame": null,
+      "guard_leader": null,
+      "title": null,
+      "base": {
+        "origin_info": null,
+        "risk_ctrl_info": null,
+        "face": "https://i0.hdslb.com/bfs/face/3689c4b7136b605cde614ac4669b82d154d4f111.jpg",
+        "is_mystery": false,
+        "name": "BGM控丶",
+        "name_color_str": "",
+        "name_color": 0,
+        "official_info": null
+      }
+    },
+    "basemap_url": "https://i0.hdslb.com/bfs/live/mlive/d4708dee21646e6ebcc58e7f6fa2a972c1d25b36.png",
+    "mock_effect": 0,
+    "max_delay_time": 7,
+    "web_effective_time": 2,
+    "uid": 17907117,
+    "web_effect_close": 0,
+    "trigger_time": 1733283640723662300,
+    "identities": 22,
+    "is_mystery": false,
+    "web_dynamic_url_apng": "",
+    "web_dynamic_url_webp": "",
+    "wealthy_info": null,
+    "show_avatar": 1,
+    "effect_silent_time": 0,
+    "id": 136,
+    "web_basemap_url": "https://i0.hdslb.com/bfs/live/mlive/d4708dee21646e6ebcc58e7f6fa2a972c1d25b36.png",
+    "copy_writing": "<%BGM控丶%> 来了",
+    "privilege_type": 0,
+    "business": 3,
+    "mobile_dynamic_url_webp": "",
+    "highlight_color": "#FFF100",
+    "target_id": 11966719,
+    "copy_writing_v2": "<%BGM控丶%> 来了",
+    "priority": 1,
+    "priority_level": 0,
+    "effective_time_new": 0,
+    "face": "https://i0.hdslb.com/bfs/face/3689c4b7136b605cde614ac4669b82d154d4f111.jpg",
+    "copy_color": "#000000",
+    "web_close_time": 900,
+    "icon_list": [
+      2
+    ],
+    "new_style": 0,
+    "wealth_style_info": null,
+    "full_cartoon_id": 0
+  },
+  "cmd": "ENTRY_EFFECT_MUST_RECEIVE"
+}
