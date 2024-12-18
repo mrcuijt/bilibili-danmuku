@@ -1,0 +1,55 @@
+{
+  "cmd": "USER_TOAST_MSG_V2",
+  "data": {
+    "dmscore": 24,
+    "effect_info": {
+      "effect_id": 397,
+      "face_effect_id": 44,
+      "room_effect_id": 590,
+      "room_gift_effect_id": 0,
+      "room_group_effect_id": 1337
+    },
+    "gift_info": {
+      "gift_id": 10003
+    },
+    "group_guard_info": null,
+    "guard_info": {
+      "end_time": 1722503296,
+      "guard_level": 3,
+      "op_type": 1,
+      "role_name": "舰长",
+      "room_guard_count": 309,
+      "start_time": 1722503296
+    },
+    "option": {
+      "anchor_show": true,
+      "color": "#00D1F1",
+      "is_group": 0,
+      "is_show": 0,
+      "source": 0,
+      "svga_block": 0,
+      "user_show": true
+    },
+    "pay_info": {
+      "num": 1,
+      "payflow_id": "2408011708017642130727667",
+      "price": 138000,
+      "unit": "月"
+    },
+    "receiver_uinfo": {
+      "base": {
+        "face": "https://i2.hdslb.com/bfs/face/a20ae17bc93de9a31480d8004b422659a052178a.jpg",
+        "name": "夜莲Annbbers"
+      },
+      "uid": 1629467333
+    },
+    "sender_uinfo": {
+      "base": {
+        "face": "",
+        "name": "不太爱摆烂"
+      },
+      "uid": 23293072
+    },
+    "toast_msg": "<%不太爱摆烂%> 在主播夜莲Annbbers的直播间开通了舰长，今天是TA陪伴主播的第1天"
+  }
+}

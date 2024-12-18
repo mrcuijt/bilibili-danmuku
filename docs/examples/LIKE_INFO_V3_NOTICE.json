@@ -1,0 +1,19 @@
+{
+  "cmd": "LIKE_INFO_V3_NOTICE",
+  "data": {
+    "terminals": [
+      1,
+      4
+    ],
+    "danmaku_style": {
+      "background_color": null
+    },
+    "content_segments": [
+      {
+        "type": 1,
+        "font_color": "#F494AF",
+        "text": "试试双击点赞，让主播被更多人看到吧～"
+      }
+    ]
+  }
+}

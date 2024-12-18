@@ -1,0 +1,32 @@
+{
+  "cmd": "PK_BATTLE_VIDEO_PUNISH_BEGIN",
+  "data": {
+    "battle_sub_type": 0,
+    "battle_type": 2,
+    "init_info": {
+      "best_uname": "千灯_千灯",
+      "is_mystery": false,
+      "room_id": 26796998,
+      "votes": 11930,
+      "winner_type": 2
+    },
+    "match_info": {
+      "best_uname": "shy爹的语文老师",
+      "is_mystery": false,
+      "room_id": 1883621428,
+      "votes": 8240,
+      "winner_type": -1
+    },
+    "video_punish": {
+      "duration": 60,
+      "punish_name": "惩罚"
+    }
+  },
+  "msg_id": "17522082589972480:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": "353898817",
+  "pk_status": 702,
+  "send_time": 1721974600272,
+  "timestamp": 1721974600
+}

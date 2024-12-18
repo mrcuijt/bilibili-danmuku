@@ -1,0 +1,14 @@
+{
+  "cmd": "PK_BATTLE_MULTIPLE_BEGIN",
+  "data": {
+    "pkid": 353898817,
+    "pk_status": 201,
+    "target_votes": 500,
+    "rule_url": "https://www.bilibili.com/blackboard/era/D3H4n4qCFWiVGkj7.html",
+    "start_time": 0,
+    "end_time": 1721974505,
+    "duration": 60,
+    "award_name": "PK加倍卡",
+    "guide_str": "PK值达500 抽<%PK值加倍卡%>"
+  }
+}

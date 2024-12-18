@@ -1,0 +1,15 @@
+{
+  "cmd": "DANMU_AGGREGATION",
+  "data": {
+    "activity_identity": "7714219",
+    "activity_source": 1,
+    "aggregation_cycle": 1,
+    "aggregation_icon": "https://i0.hdslb.com/bfs/live/c8fbaa863bf9099c26b491d06f9efe0c20777721.png",
+    "aggregation_num": 999,
+    "broadcast_msg_type": 0,
+    "msg": "点个牌子",
+    "show_rows": 1,
+    "show_time": 2,
+    "timestamp": 1722499332
+  }
+}

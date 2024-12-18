@@ -1,0 +1,15 @@
+{
+  "cmd": "PK_BATTLE_FINAL_PROCESS",
+  "data": {
+    "battle_sub_type": 0,
+    "battle_type": 1,
+    "pk_frozen_time": 1721989806
+  },
+  "msg_id": "17529960434515456:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": 353915775,
+  "pk_status": 301,
+  "send_time": 1721989626068,
+  "timestamp": 1721989626
+}

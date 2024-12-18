@@ -1,0 +1,9 @@
+{
+  "cmd": "POPULARITY_RANK_TAB_CHG",
+  "data": {
+    "room_id": 7401280,
+    "ruid": 27717502,
+    "type": "area",
+    "need_refresh_tab": true
+  }
+}

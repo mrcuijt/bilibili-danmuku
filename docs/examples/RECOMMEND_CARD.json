@@ -1,0 +1,68 @@
+{
+  "cmd": "RECOMMEND_CARD",
+  "data": {
+    "title_icon": "https://i0.hdslb.com/bfs/live/3053f47729c4974b1cfe4cd98482c28d4e23a1c2.png",
+    "recommend_list": [
+      {
+        "shopping_card_detail": {
+          "goods_id": "1679711391698235392",
+          "goods_name": "莎布Shub",
+          "goods_price": "8.00",
+          "goods_max_price": "",
+          "sale_status": 0,
+          "coupon_name": "",
+          "goods_icon": "https://i0.hdslb.com/bfs/garb/6cba5cafd434352b55c9033385b4bab6202e77d5.png",
+          "goods_status": 1,
+          "source": 5,
+          "h5_url": "https://www.bilibili.com/h5/mall/suit/detail?id=118847501&navhide=1&rebate=690171571&from_id=21995982&s_video=0&f_source=zhibo&is_live_half_webview=1&hybrid_rotate_d=0&hybrid_half_ui=1,3,100p,70p,0,0,30,100,12,0;2,2,375,100p,0,0,30,100,0,0;3,3,100p,70p,0,0,30,100,12,0;4,2,375,100p,0,0,30,100,0,0;5,3,100p,70p,0,0,30,100,12,0;6,3,100p,70p,0,0,30,100,12,0;7,3,100p,70p,0,0,30,100,12,0&web_type=1&source=5&goods_id=1679711391698235392#/virdress",
+          "jump_link": "",
+          "schema_url": "",
+          "is_pre_sale": 0,
+          "activity_info": null,
+          "pre_sale_info": null,
+          "early_bird_info": null,
+          "timestamp": 1721972595,
+          "coupon_discount_price": "",
+          "selling_point": "",
+          "hot_buy_num": 0,
+          "gift_buy_info": null,
+          "is_exclusive": false,
+          "coupon_id": "",
+          "reward_info": null,
+          "goods_tag_list": null,
+          "virtual_extra_info": {
+            "goods_type": 1,
+            "web_container_type": 1
+          },
+          "price_info": {
+            "normal": {
+              "prefix_price": "",
+              "sale_price": "8.00",
+              "suffix_price": "起",
+              "strock_price": "",
+              "sale_start_time": 1689318000,
+              "sale_end_time": 0,
+              "strock_show": 1
+            },
+            "activity": null
+          },
+          "btn_info": {
+            "card_btn_status": 1,
+            "card_btn_title": "去抢购",
+            "card_btn_style": 1,
+            "card_btn_jumpurl": "",
+            "card_btn_route_jump_url": "",
+            "card_btn_click_url": ""
+          },
+          "goods_sort_id": 0,
+          "coupon_info": null,
+          "active_info": null,
+          "jump_url": ""
+        },
+        "recommend_card_extra": null
+      }
+    ],
+    "timestamp": 1721972595,
+    "update_list": []
+  }
+}

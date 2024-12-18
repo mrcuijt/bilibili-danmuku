@@ -1,0 +1,38 @@
+{
+  "cmd": "PK_BATTLE_START",
+  "data": {
+    "battle_sub_type": 0,
+    "battle_type": 1,
+    "final_conf": {
+      "end_time": 1721989686,
+      "start_time": 1721989626,
+      "switch": 1
+    },
+    "final_hit_votes": 0,
+    "init_info": {
+      "date_streak": 0,
+      "room_id": 24323935
+    },
+    "match_info": {
+      "date_streak": 0,
+      "room_id": 32084131
+    },
+    "pk_countdown": 1721989796,
+    "pk_end_time": 1721989816,
+    "pk_frozen_time": 1721989806,
+    "pk_start_time": 1721989506,
+    "pk_votes_add": 0,
+    "pk_votes_name": "PK值",
+    "pk_votes_type": 0,
+    "star_light_msg": "",
+    "toast": "由于对方直播间为语聊房模式，已降级为不连线经典PK"
+  },
+  "msg_id": "17529897621657600:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": 353915775,
+  "pk_status": 201,
+  "roomid": "24323935",
+  "send_time": 1721989506262,
+  "timestamp": 1721989506
+}

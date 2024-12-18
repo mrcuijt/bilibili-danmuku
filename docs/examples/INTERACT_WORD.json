@@ -1,0 +1,95 @@
+{
+  "cmd": "INTERACT_WORD",
+  "data": {
+    "contribution": {
+      "grade": 0
+    },
+    "contribution_v2": {
+      "grade": 0,
+      "rank_type": "",
+      "text": ""
+    },
+    "core_user_type": 0,
+    "dmscore": 10,
+    "fans_medal": {
+      "anchor_roomid": 24160384,
+      "guard_level": 0,
+      "icon_id": 0,
+      "is_lighted": 0,
+      "medal_color": 13081892,
+      "medal_color_border": 12632256,
+      "medal_color_end": 12632256,
+      "medal_color_start": 12632256,
+      "medal_level": 18,
+      "medal_name": "莲宝p",
+      "score": 250190,
+      "special": "",
+      "target_id": 1629467333
+    },
+    "group_medal": null,
+    "identities": [
+      1
+    ],
+    "is_mystery": false,
+    "is_spread": 0,
+    "msg_type": 1,
+    "privilege_type": 0,
+    "roomid": 24160384,
+    "score": 1722499332988,
+    "spread_desc": "",
+    "spread_info": "",
+    "tail_icon": 0,
+    "tail_text": "",
+    "timestamp": 1722499332,
+    "trigger_time": 1722499331860188700,
+    "uid": 37887533,
+    "uinfo": {
+      "base": {
+        "face": "https://i2.hdslb.com/bfs/face/104cd9a00f286c07ca995b36d665d291a945651b.jpg",
+        "is_mystery": false,
+        "name": "叫我阿段就好啦",
+        "name_color": 0,
+        "name_color_str": "",
+        "official_info": null,
+        "origin_info": null,
+        "risk_ctrl_info": null
+      },
+      "guard": {
+        "expired_str": "",
+        "level": 0
+      },
+      "guard_leader": null,
+      "medal": {
+        "color": 13081892,
+        "color_border": 12632256,
+        "color_end": 12632256,
+        "color_start": 12632256,
+        "guard_icon": "",
+        "guard_level": 0,
+        "honor_icon": "",
+        "id": 609329,
+        "is_light": 0,
+        "level": 18,
+        "name": "莲宝p",
+        "ruid": 1629467333,
+        "score": 250190,
+        "typ": 0,
+        "user_receive_count": 0,
+        "v2_medal_color_border": "#919298CC",
+        "v2_medal_color_end": "#919298CC",
+        "v2_medal_color_level": "#6C6C7299",
+        "v2_medal_color_start": "#919298CC",
+        "v2_medal_color_text": "#FFFFFFFF"
+      },
+      "title": null,
+      "uhead_frame": null,
+      "uid": 37887533,
+      "wealth": {
+        "dm_icon_key": "",
+        "level": 7
+      }
+    },
+    "uname": "叫我阿段就好啦",
+    "uname_color": ""
+  }
+}

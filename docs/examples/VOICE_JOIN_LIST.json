@@ -1,0 +1,16 @@
+{
+  "cmd": "VOICE_JOIN_LIST",
+  "data": {
+    "apply_count": 1,
+    "category": 1,
+    "cmd": "",
+    "red_point": 1,
+    "refresh": 1,
+    "room_id": 30627986
+  },
+  "msg_id": "21953381380669952:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "room_id": 30627986,
+  "send_time": 1730426631962
+}

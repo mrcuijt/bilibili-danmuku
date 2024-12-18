@@ -1,0 +1,12 @@
+{
+  "cmd": "ANCHOR_NORMAL_NOTIFY",
+  "data": {
+    "type": 1,
+    "show_type": 1,
+    "info": {
+      "icon": "https://i0.hdslb.com/bfs/live/f3ebd37ee59991bc45538be58e68a6d3aa43ccca.png",
+      "title": "",
+      "content": "恭喜，获得推荐位buff加持，上推荐的几率大大提高，持续时间：1小时。"
+    }
+  }
+}

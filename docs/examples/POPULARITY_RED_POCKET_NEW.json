@@ -1,0 +1,71 @@
+{
+  "cmd": "POPULARITY_RED_POCKET_NEW",
+  "data": {
+    "lot_id": 21388021,
+    "start_time": 1722500993,
+    "current_time": 1722500993,
+    "wait_num": 0,
+    "wait_num_v2": 0,
+    "uname": "可欣妹儿o",
+    "uid": 3546735511079472,
+    "action": "送出",
+    "num": 1,
+    "gift_name": "红包",
+    "gift_id": 13000,
+    "price": 20,
+    "name_color": "",
+    "medal_info": {
+      "target_id": 0,
+      "special": "",
+      "icon_id": 0,
+      "anchor_uname": "",
+      "anchor_roomid": 0,
+      "medal_level": 0,
+      "medal_name": "",
+      "medal_color": 0,
+      "medal_color_start": 0,
+      "medal_color_end": 0,
+      "medal_color_border": 0,
+      "is_lighted": 0,
+      "guard_level": 0
+    },
+    "wealth_level": 6,
+    "group_medal": null,
+    "is_mystery": false,
+    "sender_info": {
+      "uid": 3546735511079472,
+      "base": {
+        "name": "可欣妹儿o",
+        "face": "https://i0.hdslb.com/bfs/face/8e9ea9b757f7358c465e4d3854f3ac802b28c528.jpg",
+        "name_color": 0,
+        "is_mystery": false,
+        "risk_ctrl_info": null,
+        "origin_info": {
+          "name": "可欣妹儿o",
+          "face": "https://i0.hdslb.com/bfs/face/8e9ea9b757f7358c465e4d3854f3ac802b28c528.jpg"
+        },
+        "official_info": {
+          "role": 0,
+          "title": "",
+          "desc": "",
+          "type": -1
+        },
+        "name_color_str": ""
+      },
+      "medal": null,
+      "wealth": {
+        "level": 6,
+        "dm_icon_key": ""
+      },
+      "title": null,
+      "guard": {
+        "level": 0,
+        "expired_str": ""
+      },
+      "uhead_frame": null,
+      "guard_leader": null
+    },
+    "gift_icon": "",
+    "rp_type": 0
+  }
+}

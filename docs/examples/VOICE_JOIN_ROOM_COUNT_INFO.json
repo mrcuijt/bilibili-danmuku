@@ -1,0 +1,17 @@
+{
+  "cmd": "VOICE_JOIN_ROOM_COUNT_INFO",
+  "data": {
+    "apply_count": 1,
+    "cmd": "",
+    "notify_count": 0,
+    "red_point": 1,
+    "room_id": 30627986,
+    "room_status": 1,
+    "root_status": 1
+  },
+  "msg_id": "21953381384336384:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "room_id": 30627986,
+  "send_time": 1730426631969
+}

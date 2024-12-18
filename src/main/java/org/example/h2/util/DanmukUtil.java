@@ -18,6 +18,9 @@ public class DanmukUtil {
 
     public static Set<String> cmd = new LinkedHashSet<>();
 
+    public static List<String> cmds = Arrays.stream(DanmukEnum.values())
+            .map(f -> f.name()).collect(Collectors.toList());
+
     public static String damkuPath = "";
 
     private static final String CHARSET = "UTF-8";
@@ -61,31 +64,38 @@ public class DanmukUtil {
             e.printStackTrace();
         }
         String roomid = danmukFile.getName().split("-")[0];
-        danmukList.stream().forEach(f -> {if(Objects.isNull(f.getRoomId()))f.setRoomId(roomid);});
+        danmukList.stream().forEach(f -> {
+            if (Objects.isNull(f.getRoomId()))
+                f.setRoomId(roomid);
+            f.setFilePath(danmukFile.getName());
+        });
         return danmukList;
     }
 
-    public static void parseDanmukMsg(JSONArray body, List<Danmuk> danmukList){
+    public static void parseDanmukMsg(JSONArray body, List<Danmuk> danmukList) {
         for (int i = 0; i < body.size(); i++) {
             if (body.get(i) instanceof JSONObject) {
                 JSONObject item = body.getJSONObject(i);
                 String cmd = item.getString("cmd");
-                if(!DanmukUtil.cmd.contains(cmd)){
+                if (!DanmukUtil.cmd.contains(cmd)) {
                     DanmukUtil.cmd.add(cmd);
                 }
                 Danmuk danmuk = DanmukHolder.getDanmukParser(getDanmukEnum(cmd)).parser(item);
                 danmukList.add(danmuk);
-            } else if(body.get(i) instanceof JSONArray){
+            } else if (body.get(i) instanceof JSONArray) {
                 parseDanmukMsg(body.getJSONArray(i), danmukList);
             }
         }
     }
 
-    public static DanmukEnum getDanmukEnum(String cmd){
-        if(cmd.startsWith(DanmukEnum.DANMU_MSG.toString())){
+    public static DanmukEnum getDanmukEnum(String cmd) {
+        if (cmd.startsWith(DanmukEnum.DANMU_MSG.toString())) {
             return DanmukEnum.DANMU_MSG;
         }
-        return DanmukEnum.valueOf(cmd);
+        if (cmds.contains(cmd)) {
+            return DanmukEnum.valueOf(cmd);
+        }
+        return DanmukEnum._UN_KNOW_CMD_NEED_AFTER_ADD;
     }
 
     public static String getCharset(String charset) {

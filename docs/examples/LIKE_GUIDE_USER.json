@@ -1,0 +1,13 @@
+{
+  "cmd": "LIKE_GUIDE_USER",
+  "data": {
+    "show_area": 0,
+    "like_text": "主播@你：点点赞支持一下我吧",
+    "uid": 17907117,
+    "identities": [
+      1
+    ],
+    "msg_type": 6,
+    "dmscore": 20
+  }
+}

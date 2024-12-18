@@ -1,0 +1,84 @@
+{
+  "cmd": "PK_BATTLE_END",
+  "data": {
+    "battle_sub_type": 0,
+    "battle_type": 1,
+    "dm_conf": {
+      "bg_color": "#72C5E2",
+      "font_color": "#FFE10B"
+    },
+    "init_info": {
+      "assist_info": [
+        {
+          "award_content": "",
+          "face": "https://i1.hdslb.com/bfs/face/402323e3b034d55b42ddeac785f0fdcef5168a19.jpg",
+          "is_mystery": false,
+          "rank": "1",
+          "score": "11170",
+          "uid": "490731637",
+          "uinfo": {
+            "base": {
+              "face": "https://i1.hdslb.com/bfs/face/402323e3b034d55b42ddeac785f0fdcef5168a19.jpg",
+              "is_mystery": false,
+              "uname": "左道铁血脆鲨"
+            }
+          },
+          "uname": "左道铁血脆鲨"
+        },
+        {
+          "award_content": "",
+          "face": "https://i2.hdslb.com/bfs/face/e5a6ab39a550e4953b64bdf93ac84f175d0b524b.jpg",
+          "is_mystery": false,
+          "rank": "2",
+          "score": "2702",
+          "uid": "9110894",
+          "uinfo": {
+            "base": {
+              "face": "https://i2.hdslb.com/bfs/face/e5a6ab39a550e4953b64bdf93ac84f175d0b524b.jpg",
+              "is_mystery": false,
+              "uname": "喜欢画画的鼬uu"
+            }
+          },
+          "uname": "喜欢画画的鼬uu"
+        },
+        {
+          "award_content": "",
+          "face": "https://i1.hdslb.com/bfs/face/e9201f765fb353a60f415d8b2da824816ab57488.jpg",
+          "is_mystery": false,
+          "rank": "3",
+          "score": "1460",
+          "uid": "7990069",
+          "uinfo": {
+            "base": {
+              "face": "https://i1.hdslb.com/bfs/face/e9201f765fb353a60f415d8b2da824816ab57488.jpg",
+              "is_mystery": false,
+              "uname": "一碗培根蛋炒饭"
+            }
+          },
+          "uname": "一碗培根蛋炒饭"
+        }
+      ],
+      "best_uname": "左道铁血脆鲨",
+      "room_id": 24323935,
+      "votes": 16772,
+      "winner_type": 3
+    },
+    "match_info": {
+      "assist_info": [],
+      "best_uname": "",
+      "room_id": 32084131,
+      "votes": 0,
+      "winner_type": -1
+    },
+    "show_streak": false,
+    "timer": 10
+  },
+  "msg_id": "17529993017980416:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": "353915775",
+  "pk_status": 501,
+  "roomid": "24323935",
+  "send_time": 1721989688216,
+  "timestamp": 1721989688
+}

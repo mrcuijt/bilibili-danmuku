@@ -1,0 +1,15 @@
+{
+  "cmd": "PK_BATTLE_MULTIPLE_RES",
+  "data": {
+    "pkid": 353898817,
+    "pk_status": 201,
+    "target_votes": 500,
+    "cur_votes": 800,
+    "award_num": 3,
+    "lottery_wait_time": 15,
+    "start_time": 1721974497,
+    "end_time": 1721974512,
+    "room_id": 26796998,
+    "vote_time": 8
+  }
+}

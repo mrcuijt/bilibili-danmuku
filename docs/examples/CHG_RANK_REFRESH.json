@@ -1,0 +1,12 @@
+{
+  "cmd": "CHG_RANK_REFRESH",
+  "data": {
+    "cmd": "CHG_RANK_REFRESH",
+    "rank_type": 3,
+    "rank_module": "area",
+    "room_id": 5279,
+    "ruid": 110631,
+    "need_refresh": true,
+    "version": 1723599915239
+  }
+}

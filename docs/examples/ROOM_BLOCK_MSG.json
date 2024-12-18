@@ -1,0 +1,13 @@
+{
+  "cmd": "ROOM_BLOCK_MSG",
+  "data": {
+    "block_expired": 2145888000,
+    "dmscore": 45,
+    "operator": 1,
+    "uid": 3546735521565420,
+    "uname": "幑信査云直乐",
+    "vaild_period": "永久"
+  },
+  "uid": 3546735521565420,
+  "uname": "幑信査云直乐"
+}

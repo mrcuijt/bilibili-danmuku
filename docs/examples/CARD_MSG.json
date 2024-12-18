@@ -1,0 +1,14 @@
+{
+  "cmd": "CARD_MSG",
+  "data": {
+    "card_type": "daily_recommend",
+    "card_data": {
+      "arouse": 600,
+      "interval": 3,
+      "msg": "快来关注我，下次直播不迷路~",
+      "room_id": 22719662,
+      "source_event": 3,
+      "uid": 17907117
+    }
+  }
+}

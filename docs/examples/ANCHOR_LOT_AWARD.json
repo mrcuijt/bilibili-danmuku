@@ -1,0 +1,52 @@
+{
+  "cmd": "ANCHOR_LOT_AWARD",
+  "data": {
+    "award_dont_popup": 1,
+    "award_image": "",
+    "award_name": "小蜜蜂赛博01",
+    "award_num": 1,
+    "award_type": 0,
+    "award_users": [
+      {
+        "uid": 23513338,
+        "uname": "纯欲年糕",
+        "face": "https://i1.hdslb.com/bfs/face/6d1ea21904abb65fb9708f17459f7f04a5d4847d.jpg",
+        "level": 0,
+        "color": 0,
+        "num": 1,
+        "is_mystery": false,
+        "uinfo": {
+          "uid": 23513338,
+          "base": {
+            "name": "纯欲年糕",
+            "face": "https://i1.hdslb.com/bfs/face/6d1ea21904abb65fb9708f17459f7f04a5d4847d.jpg",
+            "name_color": 0,
+            "is_mystery": false,
+            "risk_ctrl_info": null,
+            "origin_info": {
+              "name": "纯欲年糕",
+              "face": "https://i1.hdslb.com/bfs/face/6d1ea21904abb65fb9708f17459f7f04a5d4847d.jpg"
+            },
+            "official_info": {
+              "role": 0,
+              "title": "",
+              "desc": "",
+              "type": -1
+            },
+            "name_color_str": ""
+          },
+          "medal": null,
+          "wealth": null,
+          "title": null,
+          "guard": null,
+          "uhead_frame": null,
+          "guard_leader": null
+        }
+      }
+    ],
+    "id": 7714219,
+    "lot_status": 2,
+    "url": "https://live.bilibili.com/p/html/live-lottery/anchor-join.html?is_live_half_webview=1&hybrid_biz=live-lottery-anchor&hybrid_half_ui=1,5,100p,100p,000000,0,30,0,0,1;2,5,100p,100p,000000,0,30,0,0,1;3,5,100p,100p,000000,0,30,0,0,1;4,5,100p,100p,000000,0,30,0,0,1;5,5,100p,100p,000000,0,30,0,0,1;6,5,100p,100p,000000,0,30,0,0,1;7,5,100p,100p,000000,0,30,0,0,1;8,5,100p,100p,000000,0,30,0,0,1",
+    "web_url": "https://live.bilibili.com/p/html/live-lottery/anchor-join.html"
+  }
+}

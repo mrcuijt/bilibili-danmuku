@@ -1,0 +1,11 @@
+{
+  "battle_sub_type": 0,
+  "cmd": "PK_BATTLE_VIDEO_PUNISH_END",
+  "msg_id": "17522114038358016:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": "353898817",
+  "pk_status": 1101,
+  "send_time": 1721974660255,
+  "timestamp": 1721974660
+}

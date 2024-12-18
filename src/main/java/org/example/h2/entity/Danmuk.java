@@ -50,4 +50,9 @@ public class Danmuk {
      */
     private LocalDateTime danmukTime;
 
+    /**
+     * 文件路径
+     */
+    private String filePath;
+
 }

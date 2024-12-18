@@ -1,0 +1,44 @@
+{
+  "cmd": "COMMON_NOTICE_DANMAKU",
+  "data": {
+    "content_segments": [
+      {
+        "font_color": "#99A5AE",
+        "type": 1
+      },
+      {
+        "font_color": "#FF7373",
+        "text": "芙宁娜和梓宸的狗",
+        "type": 1
+      },
+      {
+        "font_color": "#99A5AE",
+        "text": "投喂",
+        "type": 1
+      },
+      {
+        "font_color": "#FF7373",
+        "text": "超能魔盒",
+        "type": 1
+      },
+      {
+        "font_color": "#99A5AE",
+        "text": "爆出",
+        "type": 1
+      },
+      {
+        "font_color": "#FF7373",
+        "text": "离子超跑",
+        "type": 1
+      }
+    ],
+    "dmscore": 1008,
+    "terminals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

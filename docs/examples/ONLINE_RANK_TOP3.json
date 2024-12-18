@@ -1,0 +1,14 @@
+{
+  "cmd": "ONLINE_RANK_TOP3",
+  "data": {
+    "dmscore": 784,
+    "list": [
+      {
+        "is_mystery": false,
+        "msg": "恭喜 <%鱼禾大猫%> 成为高能用户",
+        "rank": 2,
+        "uid": 1545227874
+      }
+    ]
+  }
+}

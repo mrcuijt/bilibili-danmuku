@@ -1,0 +1,57 @@
+{
+  "cmd": "LIVE_ANI_RES_UPDATE",
+  "data": {
+    "list": [
+      {
+        "id": 1913,
+        "type": 1,
+        "weight": 1,
+        "web_mp4_json": "https://i0.hdslb.com/bfs/live/4198f2c8fe616c57d592a23b82e3d1712738e66a.json",
+        "web_svga": "",
+        "horizontal_svga": "",
+        "vertical_svga": "",
+        "web_mp4": "https://i0.hdslb.com/bfs/live/ae5e03fa705db22ff55102483a3217e750615c80.mp4",
+        "horizontal_mp4": "https://i0.hdslb.com/bfs/live/ae5e03fa705db22ff55102483a3217e750615c80.mp4",
+        "vertical_mp4": "https://i0.hdslb.com/bfs/live/ae5e03fa705db22ff55102483a3217e750615c80.mp4",
+        "horizontal_mp4_md5": "f1b09008cc2fc8e2556048e36c95fdc6",
+        "vertical_mp4_md5": "f1b09008cc2fc8e2556048e36c95fdc6",
+        "web_mp4_md5": "f1b09008cc2fc8e2556048e36c95fdc6",
+        "horizontal_mp4_crc32": 2761577025,
+        "vertical_mp4_crc32": 2761577025,
+        "web_mp4_crc32": 2761577025,
+        "horizontal_mp4_file_size": 546918,
+        "vertical_mp4_file_size": 546918,
+        "web_mp4_file_size": 546918,
+        "h265_conf": {
+          "horizontal_mp4": {
+            "mp4": "https://i0.hdslb.com/bfs/live/785aaaf46e119a2414af09970765f8727253be25.mp4",
+            "mp4_md5": "b599faab4957a3b34c82854b1491e3c6",
+            "mp4_json": "",
+            "mp4_crc32": 3418793513,
+            "mp4_file_size": 224635
+          },
+          "vertical_mp4": {
+            "mp4": "https://i0.hdslb.com/bfs/live/785aaaf46e119a2414af09970765f8727253be25.mp4",
+            "mp4_md5": "b599faab4957a3b34c82854b1491e3c6",
+            "mp4_json": "",
+            "mp4_crc32": 3418793513,
+            "mp4_file_size": 224635
+          }
+        },
+        "plan_platform": [
+          1,
+          2
+        ],
+        "broadcast_scope": 1,
+        "bind_giftids": [
+          34684
+        ],
+        "title": "花的告白test",
+        "online_time": 1733833259,
+        "offline_time": 0,
+        "ctime": 1733833261,
+        "mtime": 1733906510
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "cmd": "COMBO_SEND",
+  "data": {
+    "action": "投喂",
+    "batch_combo_id": "batch:gift:combo_id:102636790:1629467333:34001:1722499328.8177",
+    "batch_combo_num": 4,
+    "coin_type": "gold",
+    "combo_id": "gift:combo_id:102636790:1629467333:34001:1722499328.8162",
+    "combo_num": 4,
+    "combo_total_coin": 400,
+    "dmscore": 140,
+    "gift_id": 34001,
+    "gift_name": "粉丝团灯牌",
+    "gift_num": 0,
+    "group_medal": null,
+    "is_join_receiver": false,
+    "is_naming": false,
+    "is_show": 1,
+    "medal_info": {
+      "anchor_roomid": 0,
+      "anchor_uname": "",
+      "guard_level": 0,
+      "icon_id": 0,
+      "is_lighted": 1,
+      "medal_color": 12478086,
+      "medal_color_border": 12478086,
+      "medal_color_end": 12478086,
+      "medal_color_start": 12478086,
+      "medal_level": 16,
+      "medal_name": "莲宝p",
+      "special": "",
+      "target_id": 1629467333
+    },
+    "name_color": "",
+    "r_uname": "夜莲Annbbers",
+    "receive_user_info": {
+      "uid": 1629467333,
+      "uname": "夜莲Annbbers"
+    },
+    "receiver_uinfo": {
+      "base": {
+        "face": "https://i2.hdslb.com/bfs/face/a20ae17bc93de9a31480d8004b422659a052178a.jpg",
+        "is_mystery": false,
+        "name": "夜莲Annbbers",
+        "name_color": 0,
+        "name_color_str": "",
+        "official_info": {
+          "desc": "",
+          "role": 1,
+          "title": "bilibili 知名游戏UP主",
+          "type": 0
+        },
+        "origin_info": {
+          "face": "https://i2.hdslb.com/bfs/face/a20ae17bc93de9a31480d8004b422659a052178a.jpg",
+          "name": "夜莲Annbbers"
+        },
+        "risk_ctrl_info": {
+          "face": "https://i2.hdslb.com/bfs/face/a20ae17bc93de9a31480d8004b422659a052178a.jpg",
+          "name": "夜莲Annbbers"
+        }
+      },
+      "guard": null,
+      "guard_leader": null,
+      "medal": null,
+      "title": null,
+      "uhead_frame": null,
+      "uid": 1629467333,
+      "wealth": null
+    },
+    "ruid": 1629467333,
+    "send_master": null,
+    "sender_uinfo": {
+      "base": {
+        "face": "https://i1.hdslb.com/bfs/face/0262f3b80b02e297a2d59637d717725d7c06338a.jpg",
+        "is_mystery": false,
+        "name": "KyeFn",
+        "name_color": 0,
+        "name_color_str": "",
+        "official_info": {
+          "desc": "",
+          "role": 0,
+          "title": "",
+          "type": -1
+        },
+        "origin_info": {
+          "face": "https://i1.hdslb.com/bfs/face/0262f3b80b02e297a2d59637d717725d7c06338a.jpg",
+          "name": "KyeFn"
+        },
+        "risk_ctrl_info": {
+          "face": "https://i1.hdslb.com/bfs/face/0262f3b80b02e297a2d59637d717725d7c06338a.jpg",
+          "name": "KyeFn"
+        }
+      },
+      "guard": null,
+      "guard_leader": null,
+      "medal": {
+        "color": 12478086,
+        "color_border": 12478086,
+        "color_end": 12478086,
+        "color_start": 12478086,
+        "guard_icon": "",
+        "guard_level": 0,
+        "honor_icon": "",
+        "id": 0,
+        "is_light": 1,
+        "level": 16,
+        "name": "莲宝p",
+        "ruid": 1629467333,
+        "score": 137520,
+        "typ": 0,
+        "user_receive_count": 0,
+        "v2_medal_color_border": "#C85DC499",
+        "v2_medal_color_end": "#C85DC499",
+        "v2_medal_color_level": "#59005699",
+        "v2_medal_color_start": "#C85DC499",
+        "v2_medal_color_text": "#FFFFFFFF"
+      },
+      "title": null,
+      "uhead_frame": null,
+      "uid": 102636790,
+      "wealth": null
+    },
+    "total_num": 4,
+    "uid": 102636790,
+    "uname": "KyeFn",
+    "wealth_level": 6
+  }
+}

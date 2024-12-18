@@ -25,6 +25,7 @@ public class DanmukServiceTest {
         basePath = "F:/workspace/danmuk-repo/download/upload-20230212/";
         basePath = "F:/workspace/danmuk-repo/bilibili-danmuk-repo/26545331-20230127-001/";
         basePath = "F:/workspace/danmuk-repo/download/upload-20230213/";
+        basePath = "D:/tools/upload/upload/";
         //basePath = "C:/workspace-example/websocket/target/websocket-1.0-SNAPSHOT/repo/bilibili-danmuk-repo/";
         //basePath = "C:/workspace-example/datas/danmukdemos/";
         //basePath = "C:/workspace-example/datas/danmukdemos/";
@@ -76,6 +77,11 @@ public class DanmukServiceTest {
     public void demo1(){
         List<String> roomIds = Arrays.asList(new String[]{
 
+//                "26796998"
+//                "24160384"
+//                "21987615"
+                "6431492"
+
                 //"22384516", // 2023的第一场直播就事故了哇！！
                 //"8792912", // 呀咩喽
                 //"22673512", //
@@ -88,7 +94,7 @@ public class DanmukServiceTest {
                 //"3822389", //
                 //"81004", // 深夜和动画区的二次元怪叔叔打lol!
                 //"21652717", // 天才鹅鸭杀
-                "22603245", // 新年好饿
+//                "22603245", // 新年好饿
 
                 //"21696950", //
                 //"21756924", //

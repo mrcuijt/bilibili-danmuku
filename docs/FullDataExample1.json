@@ -1,0 +1,23 @@
+{
+  "body": [
+    [
+      {
+        "cmd": "ROOM_CHANGE",
+        "data": {
+          "title": "【全球冠军赛】FPX vs TH",
+          "area_id": 329,
+          "parent_area_id": 2,
+          "area_name": "无畏契约",
+          "parent_area_name": "网游",
+          "live_key": "515598969799223424",
+          "sub_session_key": "515598969799223424sub_time:1722497062"
+        }
+      }
+    ]
+  ],
+  "packetLen": 218,
+  "headerLen": 16,
+  "ver": 3,
+  "op": 5,
+  "seq": 0
+}

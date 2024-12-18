@@ -1,0 +1,116 @@
+{
+  "cmd": "POPULARITY_RED_POCKET_V2_WINNER_LIST",
+  "data": {
+    "lot_id": 21388021,
+    "total_num": 8,
+    "award_num": 0,
+    "winner_info": [
+      [
+        322413943,
+        "虚名的蛤蟆",
+        9755929,
+        31212,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        19379892,
+        "三月七OvO",
+        9809383,
+        31212,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        1116928801,
+        "荔枝酒9",
+        9695483,
+        34003,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        15052101,
+        "冰泷虾",
+        9695484,
+        34003,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        175996150,
+        "顶不到云",
+        9774658,
+        34003,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        451082871,
+        "HangYoung",
+        9695482,
+        31216,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        18263157,
+        "-かげ-",
+        9693901,
+        31216,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ],
+      [
+        15201291,
+        "迎蓝R",
+        9695481,
+        31216,
+        false,
+        null,
+        1722501175,
+        1629467333
+      ]
+    ],
+    "awards": {
+      "31212": {
+        "award_type": 1,
+        "award_name": "打call",
+        "award_pic": "https://s1.hdslb.com/bfs/live/461be640f60788c1d159ec8d6c5d5cf1ef3d1830.png",
+        "award_big_pic": "https://i0.hdslb.com/bfs/live/9e6521c57f24c7149c054d265818d4b82059f2ef.png",
+        "award_price": 500
+      },
+      "31216": {
+        "award_type": 1,
+        "award_name": "小花花",
+        "award_pic": "https://s1.hdslb.com/bfs/live/5126973892625f3a43a8290be6b625b5e54261a5.png",
+        "award_big_pic": "https://i0.hdslb.com/bfs/live/cf90eac49ac0df5c26312f457e92edfff266f3f1.png",
+        "award_price": 100
+      },
+      "34003": {
+        "award_type": 1,
+        "award_name": "人气票",
+        "award_pic": "https://s1.hdslb.com/bfs/live/7164c955ec0ed7537491d189b821cc68f1bea20d.png",
+        "award_big_pic": "https://i0.hdslb.com/bfs/live/5bfaddf9a78e677501bb6d440f4d690668136496.png",
+        "award_price": 100
+      }
+    },
+    "version": 1,
+    "rp_type": 0,
+    "timestamp": 0
+  }
+}

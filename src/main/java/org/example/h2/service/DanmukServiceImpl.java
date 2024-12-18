@@ -25,7 +25,8 @@ public class DanmukServiceImpl implements DanmukService {
                 fileList = danmukFiles.subList(current, danmukFiles.size() - 1);
             }
             current += batch;
-            danmukDao.addBatch(DanmukUtil.getDanmuk(fileList));
+            DanmukUtil.getDanmuk(fileList);
+            //danmukDao.addBatch(DanmukUtil.getDanmuk(fileList));
         } while (danmukFiles.size() > current);
     }
 

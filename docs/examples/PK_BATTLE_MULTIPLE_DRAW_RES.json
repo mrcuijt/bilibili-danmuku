@@ -1,0 +1,14 @@
+{
+  "cmd": "PK_BATTLE_MULTIPLE_DRAW_RES",
+  "data": {
+    "pkid": 353898817,
+    "award_room": 26796998,
+    "award_no": 2,
+    "award_name": "1.5",
+    "award_value": 150,
+    "multiple_time": 60,
+    "start_time": 1721974517,
+    "end_time": 1721974577,
+    "status": 4
+  }
+}

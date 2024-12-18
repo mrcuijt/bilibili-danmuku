@@ -1,0 +1,6 @@
+{
+  "cmd": "RING_STATUS_CHANGE_V2",
+  "data": {
+    "status": 0
+  }
+}

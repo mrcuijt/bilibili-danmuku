@@ -1,0 +1,15 @@
+{
+  "cmd": "PK_BATTLE_MULTIPLE_AWARD",
+  "data": {
+    "pkid": 353898817,
+    "pk_status": 201,
+    "award_room": 1883621428,
+    "award_no": 3,
+    "award_name": "2",
+    "award_value": 200,
+    "multiple_time": 40,
+    "start_time": 1721974477,
+    "end_time": 1721974517,
+    "status": 5
+  }
+}

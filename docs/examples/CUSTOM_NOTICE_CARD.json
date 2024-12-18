@@ -1,0 +1,11 @@
+{
+  "cmd": "CUSTOM_NOTICE_CARD",
+  "data": {
+    "title": "",
+    "sub_title": "",
+    "icon_img": "",
+    "business_info": "",
+    "business_id": "LIVE_OPEN_PLATFORM_CARD",
+    "business_status": 1
+  }
+}

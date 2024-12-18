@@ -1,0 +1,9 @@
+{
+  "cmd": "LIVE_INTERACT_GAME_STATE_CHANGE",
+  "data": {
+    "game_name": "弹幕宠物互动玩法",
+    "game_id": "7727eadd-0663-45d1-986e-b0f583c27105",
+    "action": 1
+  },
+  "recv_time": "2024-08-06 15:37:06"
+}

@@ -1,0 +1,21 @@
+{
+  "cmd": "COMMON_NOTICE_DANMAKU",
+  "data": {
+    "content_segments": [
+      {
+        "font_color": "#CCCCCC",
+        "font_color_dark": "#CCCCCC",
+        "highlight_font_color": "#FFC73E",
+        "highlight_font_color_dark": "#FFC73E",
+        "text": "恭喜用户 尼卡nikani <%荣耀等级升级至11级%>",
+        "type": 1
+      }
+    ],
+    "dmscore": 1008,
+    "terminals": [
+      1,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "cmd": "WIDGET_GIFT_STAR_PROCESS",
+  "data": {
+    "start_date": 20240729,
+    "process_list": [
+      {
+        "gift_id": 32609,
+        "gift_img": "https://s1.hdslb.com/bfs/live/15313516b3ec0875d67130f18c0a53c582e76531.png",
+        "gift_name": "礼物星球",
+        "completed_num": 10,
+        "target_num": 30
+      },
+      {
+        "gift_id": 30758,
+        "gift_img": "https://s1.hdslb.com/bfs/live/3ddb10b055b9d1826829ec0fad93ab56484d4a90.png",
+        "gift_name": "礼物星球",
+        "completed_num": 1,
+        "target_num": 10
+      },
+      {
+        "gift_id": 34065,
+        "gift_img": "https://s1.hdslb.com/bfs/live/d6525ee20a1fedd258f4e86684df5f8c748c1f0d.png",
+        "gift_name": "礼物星球",
+        "completed_num": 0,
+        "target_num": 5
+      }
+    ],
+    "finished": false,
+    "ddl_timestamp": 1722787200,
+    "version": 1722499521800,
+    "reward_gift": 0,
+    "reward_gift_img": "https://i0.hdslb.com/bfs/live/52edb4ab7377ece34ac15b21154d13d188874b01.png",
+    "reward_gift_name": "礼物星球",
+    "level_info": {
+      "star_name": "礼物星球",
+      "level_tip": "暂未达成",
+      "level_img": "https://i0.hdslb.com/bfs/live/91292553d02aa10a133cdf6d8e579d8588e2067a.png",
+      "level_id": 0
+    }
+  }
+}

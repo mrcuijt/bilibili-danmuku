@@ -1,0 +1,45 @@
+{
+  "cmd": "ANCHOR_LOT_START",
+  "data": {
+    "asset_icon": "https://i0.hdslb.com/bfs/live/cde7d1a68c0d10c6aa283c4c24b968578fa45d75.png",
+    "asset_icon_webp": "https://i0.hdslb.com/bfs/live/19b8a1b80f71af777ec615b329549224941b7b6c.webp",
+    "award_image": "",
+    "award_name": "D-GLOW鼠标垫",
+    "award_num": 5,
+    "award_type": 0,
+    "break_up_time": 0,
+    "cur_gift_num": 0,
+    "current_time": 1722501385,
+    "danmu": "",
+    "danmu_new": [
+      {
+        "danmu": "",
+        "danmu_view": "",
+        "reject": false
+      }
+    ],
+    "danmu_type": 0,
+    "gift_id": 31164,
+    "gift_name": "粉丝团灯牌",
+    "gift_num": 1,
+    "gift_price": 1000,
+    "goaway_time": 180,
+    "goods_id": 15,
+    "id": 7714804,
+    "is_broadcast": 1,
+    "join_type": 1,
+    "lot_status": 0,
+    "max_time": 600,
+    "require_text": "关注主播",
+    "require_type": 1,
+    "require_value": 0,
+    "room_id": 24160384,
+    "send_gift_ensure": 0,
+    "show_panel": 1,
+    "start_dont_popup": 0,
+    "status": 1,
+    "time": 599,
+    "url": "https://live.bilibili.com/p/html/live-lottery/anchor-join.html?is_live_half_webview=1&hybrid_biz=live-lottery-anchor&hybrid_half_ui=1,5,100p,100p,000000,0,30,0,0,1;2,5,100p,100p,000000,0,30,0,0,1;3,5,100p,100p,000000,0,30,0,0,1;4,5,100p,100p,000000,0,30,0,0,1;5,5,100p,100p,000000,0,30,0,0,1;6,5,100p,100p,000000,0,30,0,0,1;7,5,100p,100p,000000,0,30,0,0,1;8,5,100p,100p,000000,0,30,0,0,1",
+    "web_url": "https://live.bilibili.com/p/html/live-lottery/anchor-join.html"
+  }
+}

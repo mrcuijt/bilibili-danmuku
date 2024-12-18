@@ -1,0 +1,9 @@
+{
+  "data": {
+    "type": "",
+    "level": 0,
+    "second": 0,
+    "msg": "[系统]: 主播取消了房间禁言"
+  },
+  "cmd": "ROOM_SILENT_OFF"
+}

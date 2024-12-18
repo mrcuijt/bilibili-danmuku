@@ -1,0 +1,24 @@
+{
+  "cmd": "PK_BATTLE_PRE",
+  "data": {
+    "battle_sub_type": 0,
+    "battle_type": 1,
+    "end_win_task": null,
+    "face": "https://i1.hdslb.com/bfs/face/3ed8d8c91995ac54da2e1e90535880b2a7ff7231.jpg",
+    "match_type": 1,
+    "pk_votes_name": "PK值",
+    "pre_timer": 10,
+    "room_id": 27318169,
+    "season_id": 75,
+    "uid": 595542571,
+    "uname": "纱月奈奈_NaNa"
+  },
+  "msg_id": "17529999990480896:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "pk_id": 353915967,
+  "pk_status": 101,
+  "roomid": 24323935,
+  "send_time": 1721989701515,
+  "timestamp": 1721989701
+}

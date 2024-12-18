@@ -1,0 +1,10 @@
+{
+  "cmd": "DM_INTERACTION",
+  "data": {
+    "data": "{\"combo\":[{\"id\":48554360003584,\"status\":4,\"content\":\"点个牌子\",\"cnt\":390,\"guide\":\"他们都在说:\",\"left_duration\":20000,\"fade_duration\":10000,\"prefix_icon\":\"\"},{\"id\":48554513057280,\"status\":4,\"content\":\"111\",\"cnt\":3,\"guide\":\"他们都在说:\",\"left_duration\":18000,\"fade_duration\":10000,\"prefix_icon\":\"\"},{\"id\":48554510946816,\"status\":4,\"content\":\"？\",\"cnt\":3,\"guide\":\"他们都在说:\",\"left_duration\":17000,\"fade_duration\":10000,\"prefix_icon\":\"\"}],\"merge_interval\":1000,\"card_appear_interval\":1000,\"send_interval\":1000,\"reset_cnt\":1,\"display_flag\":0}",
+    "dmscore": 36,
+    "id": 48554360003584,
+    "status": 4,
+    "type": 102
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "cmd": "VOICE_JOIN_STATUS",
+  "data": {
+    "channel": "35959186",
+    "channel_type": "voice",
+    "current_time": 1730426723,
+    "guard": 0,
+    "head_pic": "https://i1.hdslb.com/bfs/face/caa2e38253323c32f4bc1ab251cee84add42241f.jpg",
+    "is_mystery": false,
+    "room_id": 30627986,
+    "start_at": 1730426723,
+    "status": 1,
+    "uid": 336717988,
+    "uinfo": null,
+    "user_name": "自為風月馬前卒",
+    "web_share_link": "https://live.bilibili.com/h5/30627986"
+  },
+  "msg_id": "21953429251822080:1000:1000",
+  "p_is_ack": true,
+  "p_msg_type": 1,
+  "room_id": 30627986,
+  "send_time": 1730426723269
+}

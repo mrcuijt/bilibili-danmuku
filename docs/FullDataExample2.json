@@ -2,20 +2,433 @@
   "body": [
     [
       {
-        "cmd": "ROOM_CHANGE",
+        "cmd": "WATCHED_CHANGE",
         "data": {
-          "title": "【全球冠军赛】FPX vs TH",
-          "area_id": 329,
-          "parent_area_id": 2,
-          "area_name": "无畏契约",
-          "parent_area_name": "网游",
-          "live_key": "515598969799223424",
-          "sub_session_key": "515598969799223424sub_time:1722497062"
+          "num": 158714281,
+          "text_small": "15871.4万",
+          "text_large": "15871.4万人看过"
+        }
+      },
+      {
+        "cmd": "DANMU_MSG",
+        "dm_v2": "",
+        "info": [
+          [
+            0,
+            1,
+            25,
+            16777215,
+            1730167214013,
+            1873735238,
+            0,
+            "df775f5f",
+            0,
+            0,
+            0,
+            "",
+            0,
+            "{}",
+            "{}",
+            {
+              "extra": "{\"send_from_me\":false,\"mode\":0,\"color\":16777215,\"dm_type\":0,\"font_size\":25,\"player_mode\":1,\"show_player_type\":0,\"content\":\"赛程\",\"user_hash\":\"3749142367\",\"emoticon_unique\":\"\",\"bulge_display\":0,\"recommend_score\":3,\"main_state_dm_color\":\"\",\"objective_state_dm_color\":\"\",\"direction\":0,\"pk_direction\":0,\"quartet_direction\":0,\"anniversary_crowd\":0,\"yeah_space_type\":\"\",\"yeah_space_url\":\"\",\"jump_to_url\":\"\",\"space_type\":\"\",\"space_url\":\"\",\"animation\":{},\"emots\":null,\"is_audited\":false,\"id_str\":\"09eb58fc0b6563532ac4062ed567204189\",\"icon\":null,\"show_reply\":false,\"reply_mid\":0,\"reply_uname\":\"\",\"reply_uname_color\":\"\",\"reply_is_mystery\":false,\"reply_type_enum\":0,\"hit_combo\":0,\"esports_jump_url\":\"https://www.bilibili.com/blackboard/era/ZahiDtmtDEEGkAbm.html?-Abrowser=live\\u0026is_live_half_webview=1\\u0026hybrid_half_ui=1,1,100,100,ff00ff,1,50,50,0\"}",
+              "mode": 0,
+              "show_player_type": 0,
+              "user": {
+                "base": {
+                  "face": "https://i1.hdslb.com/bfs/face/b29260864e6c560a9f62ad6e47eb77afc4734435.jpg",
+                  "is_mystery": false,
+                  "name": "老鹅oi",
+                  "name_color": 0,
+                  "name_color_str": "",
+                  "official_info": {
+                    "desc": "",
+                    "role": 0,
+                    "title": "",
+                    "type": -1
+                  },
+                  "origin_info": {
+                    "face": "https://i1.hdslb.com/bfs/face/b29260864e6c560a9f62ad6e47eb77afc4734435.jpg",
+                    "name": "老鹅oi"
+                  },
+                  "risk_ctrl_info": null
+                },
+                "guard": null,
+                "guard_leader": {
+                  "is_guard_leader": false
+                },
+                "medal": null,
+                "title": {
+                  "old_title_css_id": "",
+                  "title_css_id": ""
+                },
+                "uhead_frame": null,
+                "uid": 19414111,
+                "wealth": null
+              }
+            },
+            {
+              "activity_identity": "",
+              "activity_source": 0,
+              "not_show": 0
+            },
+            0
+          ],
+          "赛程",
+          [
+            19414111,
+            "老鹅oi",
+            0,
+            0,
+            0,
+            10000,
+            1,
+            ""
+          ],
+          [],
+          [
+            6,
+            0,
+            9868950,
+            ">50000",
+            0
+          ],
+          [
+            "",
+            ""
+          ],
+          0,
+          0,
+          null,
+          {
+            "ct": "649895E",
+            "ts": 1730167214
+          },
+          0,
+          0,
+          null,
+          null,
+          0,
+          39,
+          [
+            0
+          ],
+          null
+        ]
+      },
+      {
+        "cmd": "ONLINE_RANK_COUNT",
+        "data": {
+          "count": 533,
+          "count_text": "533",
+          "online_count": 533,
+          "online_count_text": "533"
+        }
+      },
+      {
+        "cmd": "ONLINE_RANK_V2",
+        "data": {
+          "list": [
+            {
+              "uid": 646699999,
+              "face": "https://i1.hdslb.com/bfs/face/707ada901e9fd207342b0c36dc2d8dab98fdf226.jpg",
+              "score": "10",
+              "uname": "bili_37989486581",
+              "rank": 1,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 646699999,
+                "base": {
+                  "name": "bili_37989486581",
+                  "face": "https://i1.hdslb.com/bfs/face/707ada901e9fd207342b0c36dc2d8dab98fdf226.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "bili_37989486581",
+                    "face": "https://i1.hdslb.com/bfs/face/707ada901e9fd207342b0c36dc2d8dab98fdf226.jpg"
+                  },
+                  "origin_info": {
+                    "name": "bili_37989486581",
+                    "face": "https://i1.hdslb.com/bfs/face/707ada901e9fd207342b0c36dc2d8dab98fdf226.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 152268333,
+              "face": "https://i0.hdslb.com/bfs/face/91d41350f6240189b7d520325cb808f5f1cfd9e2.jpg",
+              "score": "5",
+              "uname": "Ahotori",
+              "rank": 2,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 152268333,
+                "base": {
+                  "name": "Ahotori",
+                  "face": "https://i0.hdslb.com/bfs/face/91d41350f6240189b7d520325cb808f5f1cfd9e2.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "Ahotori",
+                    "face": "https://i0.hdslb.com/bfs/face/91d41350f6240189b7d520325cb808f5f1cfd9e2.jpg"
+                  },
+                  "origin_info": {
+                    "name": "Ahotori",
+                    "face": "https://i0.hdslb.com/bfs/face/91d41350f6240189b7d520325cb808f5f1cfd9e2.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 43081422,
+              "face": "https://i0.hdslb.com/bfs/face/6b5645372e9e581833a827606bfd7e9165debbe5.jpg",
+              "score": "5",
+              "uname": "烧开水的小宫女",
+              "rank": 3,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 43081422,
+                "base": {
+                  "name": "烧开水的小宫女",
+                  "face": "https://i0.hdslb.com/bfs/face/6b5645372e9e581833a827606bfd7e9165debbe5.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "烧开水的小宫女",
+                    "face": "https://i0.hdslb.com/bfs/face/6b5645372e9e581833a827606bfd7e9165debbe5.jpg"
+                  },
+                  "origin_info": {
+                    "name": "烧开水的小宫女",
+                    "face": "https://i0.hdslb.com/bfs/face/6b5645372e9e581833a827606bfd7e9165debbe5.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 247379934,
+              "face": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+              "score": "3",
+              "uname": "玛丽皮耶轻轻",
+              "rank": 4,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 247379934,
+                "base": {
+                  "name": "玛丽皮耶轻轻",
+                  "face": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "玛丽皮耶轻轻",
+                    "face": "http://i0.hdslb.com/bfs/face/member/noface.jpg"
+                  },
+                  "origin_info": {
+                    "name": "玛丽皮耶轻轻",
+                    "face": "http://i0.hdslb.com/bfs/face/member/noface.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 194462796,
+              "face": "http://i0.hdslb.com/bfs/face/d53f3bbe4bdd23f9be35694da729d1a5a0cb64a2.jpg",
+              "score": "3",
+              "uname": "奥斯曼波尔琪卡拉崩吧卜多不迪翁",
+              "rank": 5,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 194462796,
+                "base": {
+                  "name": "奥斯曼波尔琪卡拉崩吧卜多不迪翁",
+                  "face": "http://i0.hdslb.com/bfs/face/d53f3bbe4bdd23f9be35694da729d1a5a0cb64a2.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "奥斯曼波尔琪卡拉崩吧卜多不迪翁",
+                    "face": "http://i0.hdslb.com/bfs/face/d53f3bbe4bdd23f9be35694da729d1a5a0cb64a2.jpg"
+                  },
+                  "origin_info": {
+                    "name": "奥斯曼波尔琪卡拉崩吧卜多不迪翁",
+                    "face": "http://i0.hdslb.com/bfs/face/d53f3bbe4bdd23f9be35694da729d1a5a0cb64a2.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 498811037,
+              "face": "https://i2.hdslb.com/bfs/face/d2088d7e1132670219f117df955c6ccc302eff23.jpg",
+              "score": "3",
+              "uname": "冬之落幕",
+              "rank": 6,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 498811037,
+                "base": {
+                  "name": "冬之落幕",
+                  "face": "https://i2.hdslb.com/bfs/face/d2088d7e1132670219f117df955c6ccc302eff23.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "冬之落幕",
+                    "face": "https://i2.hdslb.com/bfs/face/d2088d7e1132670219f117df955c6ccc302eff23.jpg"
+                  },
+                  "origin_info": {
+                    "name": "冬之落幕",
+                    "face": "https://i2.hdslb.com/bfs/face/d2088d7e1132670219f117df955c6ccc302eff23.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            },
+            {
+              "uid": 29621474,
+              "face": "http://i2.hdslb.com/bfs/face/f9bd8f830d7c9f07991a45a667778ddda8f56d41.jpg",
+              "score": "3",
+              "uname": "抱着安妮的大熊",
+              "rank": 7,
+              "guard_level": 0,
+              "is_mystery": false,
+              "uinfo": {
+                "uid": 29621474,
+                "base": {
+                  "name": "抱着安妮的大熊",
+                  "face": "http://i2.hdslb.com/bfs/face/f9bd8f830d7c9f07991a45a667778ddda8f56d41.jpg",
+                  "name_color": 0,
+                  "is_mystery": false,
+                  "risk_ctrl_info": {
+                    "name": "抱着安妮的大熊",
+                    "face": "http://i2.hdslb.com/bfs/face/f9bd8f830d7c9f07991a45a667778ddda8f56d41.jpg"
+                  },
+                  "origin_info": {
+                    "name": "抱着安妮的大熊",
+                    "face": "http://i2.hdslb.com/bfs/face/f9bd8f830d7c9f07991a45a667778ddda8f56d41.jpg"
+                  },
+                  "official_info": {
+                    "role": 0,
+                    "title": "",
+                    "desc": "",
+                    "type": -1
+                  },
+                  "name_color_str": ""
+                },
+                "medal": null,
+                "wealth": null,
+                "title": null,
+                "guard": {
+                  "level": 0,
+                  "expired_str": ""
+                },
+                "uhead_frame": null,
+                "guard_leader": null
+              }
+            }
+          ],
+          "rank_type": "gold-rank"
         }
       }
     ]
   ],
-  "packetLen": 218,
+  "packetLen": 1579,
   "headerLen": 16,
   "ver": 3,
   "op": 5,

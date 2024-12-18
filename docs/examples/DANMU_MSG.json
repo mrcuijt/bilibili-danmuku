@@ -1,0 +1,149 @@
+{
+  "cmd": "DANMU_MSG",
+  "dm_v2": "",
+  "info": [
+    [
+      0,
+      1,
+      25,
+      5816798,
+      1722499332706,
+      -2123018918,
+      0,
+      "43727c65",
+      0,
+      0,
+      0,
+      "",
+      1,
+      {
+        "bulge_display": 1,
+        "emoticon_unique": "room_24160384_63168",
+        "height": 162,
+        "in_player_area": 1,
+        "is_dynamic": 0,
+        "url": "http://i0.hdslb.com/bfs/live/4d48ead731df23e71029b60b36d5e3d446b472f9.png",
+        "width": 162
+      },
+      "{}",
+      {
+        "extra": "{\"send_from_me\":false,\"mode\":0,\"color\":5816798,\"dm_type\":1,\"font_size\":25,\"player_mode\":1,\"show_player_type\":0,\"content\":\"红猪\",\"user_hash\":\"1131576421\",\"emoticon_unique\":\"room_24160384_63168\",\"bulge_display\":1,\"recommend_score\":0,\"main_state_dm_color\":\"\",\"objective_state_dm_color\":\"\",\"direction\":0,\"pk_direction\":0,\"quartet_direction\":0,\"anniversary_crowd\":0,\"yeah_space_type\":\"\",\"yeah_space_url\":\"\",\"jump_to_url\":\"\",\"space_type\":\"\",\"space_url\":\"\",\"animation\":{},\"emots\":null,\"is_audited\":false,\"id_str\":\"2de68988111b9d55125cf0415666ab4110\",\"icon\":null,\"show_reply\":true,\"reply_mid\":0,\"reply_uname\":\"\",\"reply_uname_color\":\"\",\"reply_is_mystery\":false,\"hit_combo\":0}",
+        "mode": 0,
+        "show_player_type": 0,
+        "user": {
+          "base": {
+            "face": "https://i1.hdslb.com/bfs/face/69c2870efaf0c9f097cdc8df3fb3f3fa80427cc3.jpg",
+            "is_mystery": false,
+            "name": "不会游泳の鲨鱼",
+            "name_color": 0,
+            "name_color_str": "",
+            "official_info": {
+              "desc": "",
+              "role": 0,
+              "title": "",
+              "type": -1
+            },
+            "origin_info": {
+              "face": "https://i1.hdslb.com/bfs/face/69c2870efaf0c9f097cdc8df3fb3f3fa80427cc3.jpg",
+              "name": "不会游泳の鲨鱼"
+            },
+            "risk_ctrl_info": null
+          },
+          "guard": null,
+          "guard_leader": {
+            "is_guard_leader": false
+          },
+          "medal": {
+            "color": 12478086,
+            "color_border": 12478086,
+            "color_end": 12478086,
+            "color_start": 12478086,
+            "guard_icon": "",
+            "guard_level": 0,
+            "honor_icon": "",
+            "id": 609329,
+            "is_light": 1,
+            "level": 15,
+            "name": "莲宝p",
+            "ruid": 1629467333,
+            "score": 99613,
+            "typ": 0,
+            "user_receive_count": 0,
+            "v2_medal_color_border": "#C85DC499",
+            "v2_medal_color_end": "#C85DC499",
+            "v2_medal_color_level": "#59005699",
+            "v2_medal_color_start": "#C85DC499",
+            "v2_medal_color_text": "#FFFFFFFF"
+          },
+          "title": {
+            "old_title_css_id": "",
+            "title_css_id": ""
+          },
+          "uhead_frame": null,
+          "uid": 334557511,
+          "wealth": null
+        }
+      },
+      {
+        "activity_identity": "",
+        "activity_source": 0,
+        "not_show": 0
+      },
+      0
+    ],
+    "红猪",
+    [
+      334557511,
+      "不会游泳の鲨鱼",
+      0,
+      0,
+      0,
+      10000,
+      1,
+      ""
+    ],
+    [
+      15,
+      "莲宝p",
+      "夜莲Annbbers",
+      24160384,
+      12478086,
+      "",
+      0,
+      12478086,
+      12478086,
+      12478086,
+      0,
+      1,
+      1629467333
+    ],
+    [
+      0,
+      0,
+      9868950,
+      ">50000",
+      0
+    ],
+    [
+      "",
+      ""
+    ],
+    0,
+    0,
+    null,
+    {
+      "ct": "F9BCE766",
+      "ts": 1722499332
+    },
+    0,
+    0,
+    null,
+    null,
+    0,
+    110,
+    [
+      6
+    ],
+    null
+  ]
+}
