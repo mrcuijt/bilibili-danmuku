@@ -3,6 +3,7 @@ package org.example.h2.util;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.parser.Feature;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.apache.commons.io.FileUtils;
 import org.example.h2.entity.Danmuk;
@@ -69,6 +70,23 @@ public class DanmukUtil {
                 f.setRoomId(roomid);
             f.setFilePath(danmukFile.getName());
         });
+        return danmukList;
+    }
+
+    public static List<Danmuk> getDanmuk(String content) {
+        List<Danmuk> danmukList = new ArrayList<>();
+        try {
+            if (content.startsWith("{")) {
+                JSONObject jsonObject = JSON.parseObject(content, Feature.OrderedField);
+                if (jsonObject.getInnerMap().get("body") instanceof JSONArray) {
+                    JSONArray body = jsonObject.getJSONArray("body");
+                    parseDanmukMsg(body, danmukList);
+                }
+                //System.out.println(jsonObject.toString(SerializerFeature.WriteMapNullValue, SerializerFeature.PrettyFormat));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return danmukList;
     }
 

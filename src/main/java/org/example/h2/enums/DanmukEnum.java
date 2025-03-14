@@ -142,6 +142,10 @@ public enum DanmukEnum {
     WIDGET_GIFT_STAR_PROCESS("礼物组件处理开始"),
     WIDGET_WISH_INFO("待更新"),
     WIN_ACTIVITY("待更新"),
+//    ROOM_NEWS_UPDATE("待更新"),
+//    RECALL_DANMU_MSG("待更新"),
+//    ANCHOR_LOT_NOTICE("待更新"),
+//    OTHER_SLICE_LOADING_RESULT("待更新"),
     _UN_KNOW_CMD_NEED_AFTER_ADD("未知弹幕归档"),
     room_admin_entrance("待更新"),
 
