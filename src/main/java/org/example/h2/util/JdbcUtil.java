@@ -24,6 +24,10 @@ public class JdbcUtil {
         return JdbcUtils.getConnection(DRIVER, URL, USER_NAME, PASSWORD);
     }
 
+    public static Connection getConn(String url) throws SQLException {
+        return JdbcUtils.getConnection(DRIVER, url, USER_NAME, PASSWORD);
+    }
+
     /**
      * Clob 转 String
      */
